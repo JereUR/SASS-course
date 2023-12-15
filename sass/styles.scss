@@ -1,3 +1,5 @@
+$primaryColor:#4132b1;
+
 body{
   background: #000;
 }
@@ -11,14 +13,15 @@ body{
   p{
     a{
       text-decoration: none;
+      color: $primaryColor;
     }
   }
 
   .author{
-    color: red;
+    color: $primaryColor;
   }
 
   .title{
-    color: #000;
+    color: red;
   }
 }
