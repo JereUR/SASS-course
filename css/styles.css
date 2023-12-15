@@ -6,9 +6,11 @@ body {
   padding: 20px;
   margin: auto;
   width: 600px; }
-  .article p a {
-    text-decoration: none;
-    color: #4132b1; }
+  .article p {
+    color: #444; }
+    .article p a {
+      text-decoration: none;
+      color: #4132b1; }
   .article .author {
     color: #4132b1; }
   .article .title {

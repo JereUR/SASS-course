@@ -1,5 +1,5 @@
 $primaryColor:#4132b1;
-
+$secondaryColor: #444;
 body{
   background: #000;
 }
@@ -11,6 +11,8 @@ body{
   width: 600px;
 
   p{
+    color: $secondaryColor;
+    
     a{
       text-decoration: none;
       color: $primaryColor;
