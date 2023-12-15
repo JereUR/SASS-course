@@ -1,0 +1,23 @@
+body{
+  background: #000;
+}
+
+.article{
+  background:#f2f2f2;
+  padding: 20px;
+
+  p{
+    a{
+      text-decoration: none;
+    }
+  }
+
+  .author{
+    color: red;
+  }
+
+  .title{
+    color: #000;
+  }
+
+}

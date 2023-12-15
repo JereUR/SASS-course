@@ -1,0 +1,14 @@
+body {
+  background: #000; }
+
+.article {
+  background: #f2f2f2;
+  padding: 20px; }
+  .article p a {
+    text-decoration: none; }
+  .article .author {
+    color: red; }
+  .article .title {
+    color: #000; }
+
+/*# sourceMappingURL=styles.css.map */
