@@ -1,0 +1,38 @@
+@mixin btn{
+  display: inline-block;
+    padding: 15px 20px;
+    background: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-section{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+
+  .btn{
+    display: inline-block;
+    padding: 15px 20px;
+    background: none;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .btn-red{
+    /* @extend .btn; */
+    @include btn(); //Not recomended
+    background: red;
+  }
+
+  .btn-green{
+    @extend .btn;
+    background: green;
+  }
+
+  .btn-blue{
+    @extend .btn;
+    background: blue;
+  }
+}
+

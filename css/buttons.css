@@ -1,0 +1,24 @@
+.btn-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px; }
+  .btn-section .btn, .btn-section .btn-green, .btn-section .btn-blue {
+    display: inline-block;
+    padding: 15px 20px;
+    background: none;
+    color: #fff;
+    text-decoration: none; }
+  .btn-section .btn-red {
+    /* @extend .btn; */
+    display: inline-block;
+    padding: 15px 20px;
+    background: none;
+    color: #fff;
+    text-decoration: none;
+    background: red; }
+  .btn-section .btn-green {
+    background: green; }
+  .btn-section .btn-blue {
+    background: blue; }
+
+/*# sourceMappingURL=buttons.css.map */
