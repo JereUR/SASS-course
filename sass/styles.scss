@@ -1,13 +1,18 @@
+@import 'globals';
+@import 'aside';
+@import 'footer';
+@import 'header';
+@import 'main';
+@import 'mixins';
+@import 'buttons';
+
 $primaryColor:#4132b1;
 $secondaryColor: #444;
-body{
-  background: #000;
-}
 
 .article{
   background:#f2f2f2;
   padding: 20px;
-  margin: auto;
+  margin: 20px auto;
   width: 600px;
 
   p{
