@@ -1,0 +1,15 @@
+@mixin border($radius){
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -ms-border-radius: $radius;
+  -o-border-radius: $radius;
+  border-radius: $radius;
+}
+
+article{
+  @include border(5px);
+}
+
+footer{
+  @include border(10px);
+}
